@@ -20,11 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="91dce3f0-14bd-461d-8acc-c1a76ae184c9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/example/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/core/Component.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/core/Core.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/example/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/example/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/core/Component.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/core/Component.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,8 +53,65 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1615500231148</updated>
-      <workItem from="1615500234857" duration="5287000" />
+      <workItem from="1615500234857" duration="10978000" />
     </task>
+    <task id="LOCAL-00001" summary="feet: create files and define Component &amp; Core">
+      <created>1615581441410</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1615581441410</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Added ID for component because is need to be a unique">
+      <created>1615582428771</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1615582428771</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Added lifeCycle method after component mounted">
+      <created>1615582571416</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1615582571416</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Check attempt to define the same component more than once">
+      <created>1615582616189</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1615582616189</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Add lifeCycle method before all components was defined">
+      <created>1615582657550</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1615582657550</updated>
+    </task>
+    <task id="LOCAL-00006" summary="function for generate id">
+      <created>1615582683113</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1615582683113</updated>
+    </task>
+    <task id="LOCAL-00007" summary="fixed uniqueness idGenerator func">
+      <created>1615584591604</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1615584591604</updated>
+    </task>
+    <task id="LOCAL-00008" summary="added correctly including styles">
+      <created>1615584636504</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1615584636504</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -71,6 +127,17 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feet: create files and define Component &amp; Core" />
+    <MESSAGE value="Added ID for component because is need to be a unique" />
+    <MESSAGE value="Added lifeCycle method after component mounted" />
+    <MESSAGE value="Check attempt to define the same component more than once" />
+    <MESSAGE value="Add lifeCycle method before all components was defined" />
+    <MESSAGE value="function for generate id" />
+    <MESSAGE value="fixed uniqueness idGenerator func" />
+    <MESSAGE value="added correctly including styles" />
+    <option name="LAST_COMMIT_MESSAGE" value="added correctly including styles" />
   </component>
   <component name="WindowStateProjectService">
     <state x="570" y="244" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1615577259098">
