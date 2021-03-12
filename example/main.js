@@ -1,12 +1,22 @@
 import {Core} from '../lib/index.js';
 
+const header = Core.$createComponent({
+    name: "header-component",
+    template: `
+        <header>
+            header
+        </header>
+    `
+})
+
 const component_1 = Core.$createComponent({
     name: "element-details",
-    state: {},
+    state: {
+        index: 0,
+    },
     template: `
-     <h1>element-details - web component using <code>&lt;template&gt;</code> and <code>&lt;slot&gt;</code></h1>
+         <h1>element-details - web component using <code>&lt;template&gt;</code> and <code>&lt;slot&gt;</code></h1>
 
-    <template id="element-details-template">
       <details>
         <summary>
           <span>
@@ -23,6 +33,10 @@ const component_1 = Core.$createComponent({
       <slot name="btn">
         Naming
       </slot>
+      
+      <button ev-click="asd">click</button>
+
+      
     `,
     style: `
      details {font-family: "Open Sans Light",Helvetica,Arial}
@@ -34,6 +48,12 @@ const component_1 = Core.$createComponent({
       .attributes { margin-left: 22px; font-size: 90% }
       .attributes p { margin-left: 16px; font-style: italic }
     `,
+    methods: {
+        asd() {
+            console.log(this.$state.index)
+            this.$state.index = this.$state.index + 1
+        }
+    },
     beforeMount() {
         console.log('beforeMount')
     },
@@ -47,6 +67,8 @@ window.addEventListener('DOMContentLoaded', () => {
     Core.$factoryComponents({
         components: [
             component_1,
+            header,
+
         ]
     })
 })

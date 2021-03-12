@@ -20,10 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="91dce3f0-14bd-461d-8acc-c1a76ae184c9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/lib/utils/getElementByAttribute.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/utils/isFunction.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/example/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/example/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/example/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/example/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/core/Component.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/core/Component.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/core/Core.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/core/Core.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +46,7 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -53,7 +57,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1615500231148</updated>
-      <workItem from="1615500234857" duration="10978000" />
+      <workItem from="1615500234857" duration="16505000" />
     </task>
     <task id="LOCAL-00001" summary="feet: create files and define Component &amp; Core">
       <created>1615581441410</created>
@@ -111,7 +115,21 @@
       <option name="project" value="LOCAL" />
       <updated>1615584636504</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Add state and update method">
+      <created>1615587189666</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1615587189666</updated>
+    </task>
+    <task id="LOCAL-00010" summary="example">
+      <created>1615587199058</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1615587199058</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -137,20 +155,22 @@
     <MESSAGE value="function for generate id" />
     <MESSAGE value="fixed uniqueness idGenerator func" />
     <MESSAGE value="added correctly including styles" />
-    <option name="LAST_COMMIT_MESSAGE" value="added correctly including styles" />
+    <MESSAGE value="Add state and update method" />
+    <MESSAGE value="example" />
+    <option name="LAST_COMMIT_MESSAGE" value="example" />
   </component>
   <component name="WindowStateProjectService">
     <state x="570" y="244" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1615577259098">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
     <state x="570" y="244" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.30.1920.1050@0.30.1920.1050" timestamp="1615577259098" />
-    <state x="674" y="295" width="572" height="520" key="find.popup" timestamp="1615576742989">
+    <state x="674" y="295" width="572" height="520" key="find.popup" timestamp="1615588040295">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state x="674" y="295" width="572" height="520" key="find.popup/0.30.1920.1050@0.30.1920.1050" timestamp="1615576742989" />
-    <state x="616" y="258" key="run.anything.popup" timestamp="1615579487656">
+    <state x="674" y="295" width="572" height="520" key="find.popup/0.30.1920.1050@0.30.1920.1050" timestamp="1615588040295" />
+    <state x="616" y="258" key="run.anything.popup" timestamp="1615591815405">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state x="616" y="258" key="run.anything.popup/0.30.1920.1050@0.30.1920.1050" timestamp="1615579487656" />
+    <state x="616" y="258" key="run.anything.popup/0.30.1920.1050@0.30.1920.1050" timestamp="1615591815405" />
   </component>
 </project>
