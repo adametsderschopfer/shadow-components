@@ -53,7 +53,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1615500231148</updated>
-      <workItem from="1615500234857" duration="19303000" />
+      <workItem from="1615500234857" duration="20272000" />
     </task>
     <task id="LOCAL-00001" summary="feet: create files and define Component &amp; Core">
       <created>1615581441410</created>
@@ -132,7 +132,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615592975534</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Update: added supporting output variable of state">
+      <created>1615597053621</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1615597053621</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -161,7 +168,8 @@
     <MESSAGE value="Add state and update method" />
     <MESSAGE value="example" />
     <MESSAGE value="Update: added supporting event into template" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update: added supporting event into template" />
+    <MESSAGE value="Update: added supporting output variable of state" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update: added supporting output variable of state" />
   </component>
   <component name="WindowStateProjectService">
     <state x="570" y="244" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1615577259098">

@@ -61,7 +61,12 @@ const component_1 = Core.$createComponent({
     afterMounted() {
         console.log('afterMounted')
     },
-    
+    afterUpdate () {
+        console.log('afterUpdate')
+    },
+    beforeUpdate () {
+        console.log('beforeUpdate')
+    },
 })
 
 window.addEventListener('DOMContentLoaded', () => {
@@ -69,7 +74,6 @@ window.addEventListener('DOMContentLoaded', () => {
         components: [
             component_1,
             header,
-
         ]
     })
 })
