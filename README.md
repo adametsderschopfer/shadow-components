@@ -1,5 +1,5 @@
 # **Temploler**
->>>Ever wanted to start using native components using shadow DOM? It's time to start
+>Ever wanted to start using native components using shadow DOM? It's time to start
 
  [Example using components](https://github.com/adametsofficial/Temploler/tree/main/example)
 
