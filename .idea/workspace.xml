@@ -20,13 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="91dce3f0-14bd-461d-8acc-c1a76ae184c9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lib/utils/getElementByAttribute.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/utils/isFunction.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/example/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/example/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/example/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/core/Component.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/core/Component.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/core/Core.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/core/Core.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +53,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1615500231148</updated>
-      <workItem from="1615500234857" duration="16505000" />
+      <workItem from="1615500234857" duration="19303000" />
     </task>
     <task id="LOCAL-00001" summary="feet: create files and define Component &amp; Core">
       <created>1615581441410</created>
@@ -129,7 +125,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615587199058</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Update: added supporting event into template">
+      <created>1615592975534</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1615592975534</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -157,7 +160,8 @@
     <MESSAGE value="added correctly including styles" />
     <MESSAGE value="Add state and update method" />
     <MESSAGE value="example" />
-    <option name="LAST_COMMIT_MESSAGE" value="example" />
+    <MESSAGE value="Update: added supporting event into template" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update: added supporting event into template" />
   </component>
   <component name="WindowStateProjectService">
     <state x="570" y="244" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1615577259098">
@@ -168,9 +172,9 @@
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
     <state x="674" y="295" width="572" height="520" key="find.popup/0.30.1920.1050@0.30.1920.1050" timestamp="1615588040295" />
-    <state x="616" y="258" key="run.anything.popup" timestamp="1615591815405">
+    <state x="616" y="258" key="run.anything.popup" timestamp="1615596267733">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state x="616" y="258" key="run.anything.popup/0.30.1920.1050@0.30.1920.1050" timestamp="1615591815405" />
+    <state x="616" y="258" key="run.anything.popup/0.30.1920.1050@0.30.1920.1050" timestamp="1615596267733" />
   </component>
 </project>

@@ -12,7 +12,7 @@ const header = Core.$createComponent({
 const component_1 = Core.$createComponent({
     name: "element-details",
     state: {
-        index: 0,
+        count: 0,
     },
     template: `
          <h1>element-details - web component using <code>&lt;template&gt;</code> and <code>&lt;slot&gt;</code></h1>
@@ -34,6 +34,7 @@ const component_1 = Core.$createComponent({
         Naming
       </slot>
       
+      <p>count: {{=count=}}</p>
       <button ev-click="asd">click</button>
 
       
@@ -50,8 +51,8 @@ const component_1 = Core.$createComponent({
     `,
     methods: {
         asd() {
-            console.log(this.$state.index)
-            this.$state.index = this.$state.index + 1
+            console.log(this.$state.count)
+            this.$state.count = this.$state.count + 1
         }
     },
     beforeMount() {
