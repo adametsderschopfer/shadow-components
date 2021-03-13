@@ -21,7 +21,6 @@
   <component name="ChangeListManager">
     <list default="true" id="91dce3f0-14bd-461d-8acc-c1a76ae184c9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/example/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/core/Component.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/core/Component.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,7 +52,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1615500231148</updated>
-      <workItem from="1615500234857" duration="20272000" />
+      <workItem from="1615500234857" duration="20441000" />
     </task>
     <task id="LOCAL-00001" summary="feet: create files and define Component &amp; Core">
       <created>1615581441410</created>
@@ -139,7 +138,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615597053621</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Feet: LifeCycle methods and updating when do some event">
+      <created>1615597993992</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1615597993992</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -169,7 +175,8 @@
     <MESSAGE value="example" />
     <MESSAGE value="Update: added supporting event into template" />
     <MESSAGE value="Update: added supporting output variable of state" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update: added supporting output variable of state" />
+    <MESSAGE value="Feet: LifeCycle methods and updating when do some event" />
+    <option name="LAST_COMMIT_MESSAGE" value="Feet: LifeCycle methods and updating when do some event" />
   </component>
   <component name="WindowStateProjectService">
     <state x="570" y="244" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1615577259098">
