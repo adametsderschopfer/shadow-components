@@ -46,8 +46,8 @@ const component_1 = Core.$createComponent({
 ```
 ### handler implementation options
 ```
-template: `
 ...
+template: `
         <h1>Counter</h1>
   
         <p>count: {{=count=}}</p>
@@ -63,12 +63,12 @@ template: `
 ```
 
 ```
-template: `
 ...
+template: `
         <h1>Counter</h1>
   
         <p>count: {{=count=}}</p>
-        <button ev-click="function () {
+        <button ev-click="function (event) {
             console.log(this.$state.count, event)
             this.$state.count = this.$state.count + 
         } ">click</button>
